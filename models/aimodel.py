@@ -10,7 +10,7 @@ from tensorflow.keras.applications.resnet50 import preprocess_input
 from tensorflow.keras.models import Model
 
 # ================= LOAD PKL =================
-PKL_PATH = r"C:\Users\admin\PycharmProjects\pythonProject\venv\Implant_detection\object_detection_model\implant_embeddings_resnet.pkl"
+PKL_PATH = "implant_embeddings_resnet.pkl"
 
 with open(PKL_PATH, "rb") as f:
     data = pickle.load(f)
